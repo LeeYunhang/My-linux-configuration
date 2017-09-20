@@ -5,8 +5,7 @@
 
 ## 如何使用？
 
-克隆该项目到你的用户主目录下
-
+登陆 shell，然后执行下面的脚本即可
 
 ```bash
 cd ~ 
@@ -15,6 +14,8 @@ cd My-linux-configuration
 sh ./config.sh
 source ~/.bashrc
 ```
+
+以后每次同步都需要执行 source ~/.bashrc 
 
 原理：通过执行 config.sh 插入导入脚本的代码
 
