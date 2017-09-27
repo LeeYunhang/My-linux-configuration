@@ -6,5 +6,5 @@ alias fastping='ping -c 100 -s.2'
 alias ports='netstat -tulanp'
 
 
-alias nginxreload='sudo nginx -s reload'
-alias nginxtest='sudo nginx -t'
+alias nginxreload='nginx -s reload'
+alias nginxtest='nginx -t'
